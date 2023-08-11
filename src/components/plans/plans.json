@@ -1,0 +1,40 @@
+{
+    "mo": [{
+            "name": "Arcade",
+            "price": "9/mo",
+            "logo": "arcade",
+            "logobg": "bg-orange-400"
+        },
+        {
+            "name": "Advanced",
+            "price": "12/mo",
+            "logo": "advanced",
+            "logobg": "bg-red-400"
+        },
+        {
+            "name": "Pro",
+            "price": "15/mo",
+            "logo": "pro",
+            "logobg": "bg-blue-500"
+        }
+    ],
+    "yr": [{
+            "name": "Arcade",
+            "price": "90/yr",
+            "logo": "arcade",
+            "logobg": "bg-orange-400"
+        },
+        {
+            "name": "Advanced",
+            "price": "120/yr",
+            "logo": "advanced",
+            "logobg": "bg-red-400"
+        },
+        {
+            "name": "Pro",
+            "price": "150/yr",
+            "logo": "pro",
+            "logobg": "bg-blue-500"
+        }
+    ]
+}
