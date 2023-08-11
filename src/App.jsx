@@ -12,7 +12,7 @@ function App() {
   switch (step) {
     case 1: {
       return (
-        <div className="flex justify-between">
+        <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
           <div className="w-3/4 h-screen flex flex-col justify-center items-center">
             <Step1 />
