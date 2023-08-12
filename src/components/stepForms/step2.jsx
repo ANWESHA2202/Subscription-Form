@@ -20,17 +20,17 @@ const Step2 = () => {
    }
 
   return (
-    <div className=' mt-5 w-[60%] h-[95%] flex flex-col justify-center '>
-        <div className='w-full h-1/5'>
+    <div className=' mt-5 w-[60%] sm:h-[95%] h-full flex flex-col justify-center '>
+        <div className='w-full h-1/5 sm:mb-0 mb-10 sm:mt-0 mt-10'>
             <h1 className='text-3xl font-bold text-blue-900'>Select Your Plan</h1>
-            <p className='text-gray-300'>You have the option of monthly or yearly billing</p>
+            <p className='text-gray-300 sm:block hidden'>You have the option of monthly or yearly billing</p>
         </div>
 
 
-        <div className="w-full flex space-x-3 h-1/4 ">
+        <div className="w-full flex sm:flex-row flex-col sm:space-x-3 sm:h-1/4 sm:space-y-0 space-y-5">
         {plans[duration].map((plan, idx) => {
             return (
-                <div key={idx} className='w-1/3' onClick={()=>{
+                <div key={idx} className='sm:w-1/3 w-full' onClick={()=>{
                     console.log(plan)
                     setActivePlan(plan)
                 }}>

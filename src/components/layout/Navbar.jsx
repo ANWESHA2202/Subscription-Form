@@ -10,10 +10,10 @@ const Navbar = () => {
   return (
     <div className="sm:w-1/4 sm:h-screen h-1/6 w-full flex justify-center items-center select-none">
       <div
-        className="sm:w-[96%] w-full sm:h-[98%] h-[100px] sm:rounded-xl flex flex-col items-center"
+        className="sm:w-[96%] w-full sm:h-[98%] h-[120px] sm:rounded-xl flex flex-col items-center"
         style={{ background: `url(${navbg})`, backgroundSize: "contain" }}
       >
-        <div className="text-white flex sm:flex-col flex-row space-x-4">
+        <div className="text-white flex sm:flex-col sm:space-x-0 flex-row space-x-4">
           {stepInfo.map((info,idx)=>{
             return(
                 <div className="flex space-x-4 mt-10 cursor-pointer" onClick={()=>handleStep(idx)}>

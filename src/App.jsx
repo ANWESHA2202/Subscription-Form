@@ -14,7 +14,7 @@ function App() {
       return (
         <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
-          <div className="w-3/4 h-screen flex flex-col justify-center items-center">
+          <div className="sm:w-3/4 w-[90%] h-screen flex flex-col justify-center items-center">
             <Step1 />
           </div>
         </div>
@@ -22,9 +22,9 @@ function App() {
     }
     case 2: {
       return (
-        <div className="flex justify-between">
+        <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
-          <div className="w-3/4 h-screen flex flex-col justify-center items-center">
+          <div className="sm:w-3/4 w-[95%] h-screen flex flex-col justify-center items-center">
             <Step2 />
           </div>
         </div>
@@ -32,7 +32,7 @@ function App() {
     }
     case 3: {
       return (
-        <div className="flex justify-between">
+        <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
           <div className="w-3/4 h-screen flex flex-col justify-center items-center">
             <Step3 />
@@ -42,7 +42,7 @@ function App() {
     }
     case 4: {
       return (
-        <div className="flex justify-between">
+        <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
           <div className="w-3/4 h-screen flex flex-col justify-center items-center">
             <Step4 />
@@ -52,7 +52,7 @@ function App() {
     }
     case 5: {
       return (
-        <div className="flex justify-between">
+        <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
           <div className="w-3/4 h-screen flex flex-col justify-center items-center">
             <Success />

@@ -12,7 +12,7 @@ const Step1 = () => {
         setStep(2);
     }
   return (
-    <div className=' mt-5 w-[60%] h-[95%] flex flex-col justify-center '>
+    <div className=' mt-5 sm:w-[60%] sm:ml-0 ml-10 w-full h-[95%] flex flex-col justify-center '>
         <div className='w-full h-1/5'>
             <h1 className='text-3xl font-bold text-blue-900'>Personal Info</h1>
             <p className='text-gray-300'>Please provide your your personal informations as asked below</p>
