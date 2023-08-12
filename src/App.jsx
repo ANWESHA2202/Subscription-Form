@@ -34,7 +34,7 @@ function App() {
       return (
         <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
-          <div className="w-3/4 h-screen flex flex-col justify-center items-center">
+          <div className="sm:w-3/4 w-full h-screen flex flex-col justify-center items-center">
             <Step3 />
           </div>
         </div>
@@ -44,7 +44,7 @@ function App() {
       return (
         <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
-          <div className="w-3/4 h-screen flex flex-col justify-center items-center">
+          <div className="sm:w-3/4 w-full h-screen flex flex-col justify-center items-center">
             <Step4 />
           </div>
         </div>
@@ -54,7 +54,7 @@ function App() {
       return (
         <div className="sm:flex sm:flex-row justify-between flex-col">
           <Navbar />
-          <div className="w-3/4 h-screen flex flex-col justify-center items-center">
+          <div className="sm:w-3/4 w-full h-screen flex flex-col justify-center items-center">
             <Success />
           </div>
         </div>

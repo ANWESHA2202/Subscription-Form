@@ -40,10 +40,10 @@ const Step3 = () => {
         setStep(2)
     }
   return (
-    <div className=' mt-5 w-[60%] h-[95%] flex flex-col justify-center '>
-        <div className='w-full h-1/5'>
-            <h1 className='text-3xl font-bold text-blue-900'>Pick add-ons</h1>
-            <p className='text-gray-300'>Add-ons help enhance your gaming experience.</p>
+    <div className='sm:mt-5 mt:10 w-[60%] h-[95%] flex flex-col justify-center '>
+        <div className='w-full sm:h-1/5 h-1/3'>
+            <h1 className='text-3xl font-bold text-blue-900 sm:mt-0 mt-10'>Pick add-ons</h1>
+            <p className='text-gray-300 sm:mb-0 mb-10'>Add-ons help enhance your gaming experience.</p>
         </div>
 
 
